@@ -17,7 +17,8 @@ npm run serve
 ```
 npm run build
 ```
-```
+### 最新装饰器
+[装饰器/注解 文档点这里](https://www.npmjs.com/package/web-decorator-vue).
 
 ## 联系我们
 QQ 729694111
