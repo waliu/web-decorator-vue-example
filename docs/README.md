@@ -60,6 +60,17 @@ npm run dev
 ````
 
 ### <font color=red>注意如果选中 Linter / Formatter </font>
-- 则需要按照规则自己配置忽略
-- 
+- 开启装饰器 tsconfig.json
+````json
+"compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+}
+````
+
+- 在 vue.config 中关闭eslint(根据实际情况配置)
+````js
+// 此处只做快速关闭，实际根据自身情况来关闭。
+lintOnSave:false
+````
 
