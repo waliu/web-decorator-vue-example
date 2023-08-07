@@ -25,7 +25,7 @@ export default class HomeView implements VueHooks {
    * 点击方法
    * @version 1.0.0
    */
-  public init() {
+  public add() {
     // @ts-ignore
     this.nested["count"].temp++;
   }
