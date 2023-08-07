@@ -1,6 +1,6 @@
 # web-decorator-vue-example
-## 环境版本
-- v18.16.0
+## 环境版本(推荐使用 node 18)
+- node v18.16.0
 ## 克隆项目
 ...
 ## 依赖项目
@@ -18,7 +18,9 @@ npm run serve
 npm run build
 ```
 ### 最新装饰器
-[装饰器/注解 文档点这里](https://www.npmjs.com/package/web-decorator-vue).
+[vue 装饰器/注解 文档点这里](https://www.npmjs.com/package/web-decorator-vue).
+
+### [如何从 0 开始搭建一个新项目](docs%2FREADME.md)
 
 ## 联系我们
 QQ 729694111
