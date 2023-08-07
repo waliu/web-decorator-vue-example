@@ -1,9 +1,9 @@
 import {Ref, ref, UnwrapRef} from "vue";
 import SubComponent from "@/components/sub-component/sub-component.vue";
 //开发环境
-import {Component, Computed, VueHook, VueHooks, Watch} from "web-decorator-vue/dist";
+// import {Component, Computed, VueHook, VueHooks, Watch} from "web-decorator-vue/dist";
 // 生产环境
-// import {Component, Computed, VueHook, VueHooks, Watch} from "web-decorator-vue";
+import {Component, Computed, VueHook, VueHooks, Watch} from "web-decorator-vue";
 @Component({
   components: {
     SubComponent

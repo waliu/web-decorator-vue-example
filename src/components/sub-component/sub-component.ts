@@ -1,7 +1,7 @@
 // 开发环境
-import {Component, Emit, Prop, VueHook, VueHooks} from "web-decorator-vue/dist";
+// import {Component, Emit, Prop, VueHook, VueHooks} from "web-decorator-vue/dist";
 // 生产环境
-// import {Component, Emit, Prop, VueHook, VueHooks} from "web-decorator-vue";
+import {Component, Emit, Prop, VueHook, VueHooks} from "web-decorator-vue";
 @Component()
 export default class SubComponent implements VueHooks {
 

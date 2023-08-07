@@ -13,7 +13,7 @@
       <br>
       Computed2-text1: {{ getComputed2 }}
 
-      <button @click="init">测试按钮</button>
+      <button @click="init">增加数据值</button>
     </div>
     <div>
       <h3>子组件</h3>
