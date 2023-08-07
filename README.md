@@ -1,4 +1,4 @@
-# web-decorator-app-example
+# web-decorator-vue-example
 ## 环境版本
 - v18.16.0
 ## 克隆项目
