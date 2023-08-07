@@ -68,9 +68,15 @@ npm run dev
 }
 ````
 
+### 装饰器文档
+[vue 装饰器/注解 文档点这里](https://www.npmjs.com/package/web-decorator-vue).
+
 - 在 vue.config 中关闭eslint(根据实际情况配置)
 ````js
 // 此处只做快速关闭，实际根据自身情况来关闭。
 lintOnSave:false
 ````
+### [项目demo项目链接](https://github.com/waliu/web-decorator-vue-example)
 
+## 联系我们
+QQ 729694111
