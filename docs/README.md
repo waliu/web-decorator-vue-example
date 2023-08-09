@@ -1,4 +1,6 @@
 ### 如何在 vue3 中使用 （TS + 装饰器/注解）
+### 为什么要用装饰器
+[请看点这里](https://segmentfault.com/a/1190000023471570)
 ### 添加 @vue/cli
 ````
 npm install -g @vue/cli
@@ -31,7 +33,7 @@ npm uninstall vue-class-component
 ````
 ### 依赖 web-decorator-vue
 ````
-npm i vue-class-component
+npm i web-decorator-vue -S
 ````
 ### 更新代码中的注解 HomeView.vue
 ````ts
@@ -79,4 +81,4 @@ lintOnSave:false
 ### [项目demo项目链接](https://github.com/waliu/web-decorator-vue-example)
 
 ## 联系我们
-QQ 729694111
+QQ群 729694111
