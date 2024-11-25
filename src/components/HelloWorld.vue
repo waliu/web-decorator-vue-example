@@ -9,21 +9,7 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Component, Prop } from 'web-decorator-vue'
-
-@Component(
-  {
-    name: 'HelloWorld',
-  }
-)
-export default class HelloWorld {
-  /**
-   * Prop meg消息
-   */
-  @Prop() msg!: string;
-}
-</script>
+<script lang="ts" src="./HelloWorld.ts"></script>
 
 <style scoped>
 h1 {
